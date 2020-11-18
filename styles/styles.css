@@ -37,3 +37,23 @@
   background-image: url('../assets/IMG_0798.jpg');
   min-height: 400px;
 }
+
+.top-right {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-shadow: 2px 2px 8px #292121;
+}
+
+.top-right2 {
+  position: absolute;
+  top: 80px;
+  right: 80px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-shadow: 2px 2px 8px #292121;
+}
