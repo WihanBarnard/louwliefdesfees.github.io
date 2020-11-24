@@ -40,36 +40,39 @@
     <div style="height:10px"></div>
 
     <div class="row my-font" style="background-color: rgb(211, 204, 196); margin-right:0px; position: relative;">
-      <div class="col-sm-4 d-flex align-items-center justify-content-center" style="height: 150px;">
+      <div class="col-lg-4 d-flex align-items-center justify-content-center" style="height: 150px;">
           <img src="assets/kleinSand.jpg" style="height: 100px;">
       </div>
       
-      <div class="col-sm-4 d-flex align-items-center justify-content-center" style="height: 150px;">
+      <div class="col-lg-4 d-flex align-items-center justify-content-center" style="height: 150px;">
         <a href="https://forms.gle/mPHFgeHe4seCToW69" target="_blank" class="btn btn-outline-dark">RSVP</a>
       </div>
 
-      <div class="col-sm-4 text-center" style="height: 150px; font-weight: bolder;">
+      <div class="col-lg-4 text-center" style="min-height: 150px; font-weight: bolder;">
         
         <div class="row" style="height: 30%;">
-          <div class="col-sm-12">
+          <div class="col-lg-12">
             <h1 id="tyd-dae"></h1>
           </div>
         </div>
         <div class="row" style="height: 20%;">
-          <div class="col-sm-12">
+          <div class="col-lg-12">
             <p>dae</p>
           </div>
         </div>
         <div class="row flex-nowrap">
-          <div class="col-sm-4">
-            <h3 id="tyd-ure"></h3>
-            <p>ure</p>
+          <div class="col-lg-4">
+            <div class="text-right">
+              <h3 id="tyd-ure"></h3>
+              <p>ure</p>
+            </div>
+            
           </div>
-          <div class="col-sm-4">
+          <div class="col-lg-4">
             <h3 id="tyd-min"></h3>
             <p>min</p>
           </div>
-          <div class="col-sm-4">
+          <div class="col-lg-4 text-left">
             <h3 id="tyd-sek"></h3>
             <p>sek</p>
           </div>
@@ -79,55 +82,74 @@
 
     <div style="height:10px"></div>
 
-    <div class="row no-gutters">
-    <div class="col-lg-6 fill1 col-lg-push-6" ></div>
-    <div class="col-lg-6 text-center my-font col-lg-pull-6" style="margin: 50px 0;">
-        <br/>
-        <h1><b>Seremonie</b></h2>
-        <br/>
-        <h2><b>16:00</b></h2>
-        <br/>
-        <h4>Laurent at Lourensford</h4>
-        <h4>Lourensford Wine Estate</h4>
-        <h4>Somerset-Wes</h4>
-        <h4>7130</h4>
-    </div>
-    <div class="w-100"></div>
-    <div class="col-lg-6 text-center my-font" style="margin: 50px 0;">
-      <br/>
-      <h1><b>Onthaal</b></h2>
-      <br/>
-      <h2><b>16:40 - 0:00</b></h2>
-      <br/>
-      <h4>Laurent at Lourensford</h4>
-      <h4>Lourensford Wine Estate</h4>
-      <h4>Somerset-Wes</h4>
-      <h4>7130</h4>
-    </div>
-    <div class="col-lg-6 fill2"></div>
-    <div class="w-100"></div>
-    <div class="col-lg-6 fill3"></div>
-    <div class="col-lg-6 text-center  my-font" >
-        <img src="assets/svg/Drag InfoSVG.svg" style="max-width: 100%; height: 50%; padding-top: 10%;">
-        <a href="#" class="nav-item nav-link btn btn-outline-dark" style="max-width: 200px; margin: 0 auto;">Lees Meer</a>
-    </div>
-    <div class="w-100"></div>
-    <div class="col-lg-6 text-center my-font" >
-      <br/>
-      <br/>
-      <br/>
-      <h1><b>Aanwysings</b></h2>
-      <br/>
-      <br/>
-      <br/>
-      <h3>Latitude (s) 34°4' 4.21'</h3>
-      <br/>
-      <h3>Longitude: (E) 18°53'43.53'</h3>
-    </div>
-    
-    <div class="col-lg-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.9066850857184!2d18.886432115489434!3d-34.07190628060066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcdb5fb37cdec5f%3A0x3372f388c6fa73a6!2sLourensford%20Wine%20Estate!5e0!3m2!1saf!2sza!4v1605639711419!5m2!1saf!2sza" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
-    </div>
+      <div class="col">
+        <div class="row no-gutters">
+          
+          <div class="col-lg-6 text-center my-font order-sm-12" style="margin: 50px 0;">
+            <br/>
+            <h1><b>Seremonie</b></h2>
+            <br/>
+            <h2><b>16:00</b></h2>
+            <br/>
+            <h4>Laurent at Lourensford</h4>
+            <h4>Lourensford Wine Estate</h4>
+            <h4>Somerset-Wes</h4>
+            <h4>7130</h4>
+          </div>
+          <div class="col-lg-6 fill1 order-sm-1"></div>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6 text-center my-font" style="margin: 50px 0;">
+            <br/>
+            <h1><b>Onthaal</b></h2>
+            <br/>
+            <h2><b>16:40 - 0:00</b></h2>
+            <br/>
+            <h4>Laurent at Lourensford</h4>
+            <h4>Lourensford Wine Estate</h4>
+            <h4>Somerset-Wes</h4>
+            <h4>7130</h4>
+          </div>
+          <div class="col-lg-6 fill2"></div>
+        </div>
+          <div class="row no-gutters">
+            <div class="col-lg-6 text-center my-font order-sm-12" >
+                <br/>
+                <br/>
+                <br/>
+                <h1><b>Drag</b></h2>
+                <br/>
+                <h2><u>Streng</u> Formeel</h2>
+                <br/>
+                <a href="#" class="nav-item nav-link btn btn-outline-dark" style="max-width: 200px; margin: 0 auto;">Lees Meer</a>
+                <br/>
+                <br/>
+                <br/>
+            </div>
+            <div class="col-lg-6 fill3 order-sm-1"></div>
+          </div>
+          <div class="row no-gutters">
+            <div class="col-lg-6 text-center my-font" >
+              <br/>
+              <br/>
+              <br/>
+              <h1><b>Aanwysings</b></h2>
+              <br/>
+              <br/>
+              <br/>
+              <h3>Latitude (s) 34°4' 4.21'</h3>
+              <br/>
+              <h3>Longitude: (E) 18°53'43.53'</h3>
+            </div>
+          
+            <div class="col-lg-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.9066850857184!2d18.886432115489434!3d-34.07190628060066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcdb5fb37cdec5f%3A0x3372f388c6fa73a6!2sLourensford%20Wine%20Estate!5e0!3m2!1saf!2sza!4v1605639711419!5m2!1saf!2sza" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+          </div>
+          
+      </div>
+      
 
+    
 
     <div style="height:10px"></div>
 
