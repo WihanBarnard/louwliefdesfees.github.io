@@ -138,8 +138,8 @@
       </div>
     </div>
 
-    <div class="row my-font" style="background-color: rgb(158, 149, 134); min-height:300px;">
-      <div class="col-6 d-flex justify-content-center align-items-center" >
+    <div class="row no-gutters my-font flex-nowrap" style="background-color: rgb(158, 149, 134); min-height:300px; width: 100%;">
+      <div class="col-lg-6 d-flex justify-content-center align-items-center" >
         <div class="" >
           <h5 class="footerLinks"><a href="index.html" style="color: rgb(71, 64, 51);">Seremonie & Onthaal</a></h5>
           <h5 class="footerLinks"><a href="blybesoek.html" style="color: rgb(71, 64, 51);">Bly & Besoek</a></h5>
@@ -148,7 +148,7 @@
         </div>
         
       </div>
-      <div class="col-6 text-center d-flex justify-content-center align-items-center">
+      <div class="col-lg-6 d-flex justify-content-center align-items-center">
         <div style="color: rgb(71, 64, 51);">
           <h5 class="footerLinks">Kontak Ons</h3>
           <br>
@@ -163,38 +163,7 @@
 
     
 
-<script>
-// Set the date we're counting down to
-var countDownDate = new Date("Mar 20, 2021 16:00:00").getTime();
 
-// Update the count down every 1 second
-var x = setInterval(function() {
-
-  // Get today's date and time
-  var now = new Date().getTime();
-
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
-
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-  // Display the result in the element with id="demo"
-  document.getElementById("tyd-dae").innerHTML = days;
-  document.getElementById("tyd-ure").innerHTML = hours;
-  document.getElementById("tyd-min").innerHTML = minutes;
-  document.getElementById("tyd-sek").innerHTML = seconds;
-
-  // If the count down is finished, write some text
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "GETROUD!";
-  }
-}, 1000);
-</script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

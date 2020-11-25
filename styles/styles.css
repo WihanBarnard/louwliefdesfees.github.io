@@ -1,6 +1,4 @@
-html,body{
-  overflow-x: hidden;
-}
+
 
 .header {
     padding-top: 25px;
@@ -123,6 +121,6 @@ h5 {
     font-size: 18px;
   }
   .footerLinks {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
