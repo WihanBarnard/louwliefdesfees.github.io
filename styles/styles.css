@@ -1,3 +1,7 @@
+html,body{
+  overflow-x: hidden;
+}
+
 .header {
     padding-top: 25px;
     padding-bottom: 25px;
@@ -50,8 +54,8 @@
 
 .top-right2 {
   position: absolute;
-  top: 80px;
-  right: 80px;
+  top: 10%;
+  right: 10%;
   color: white;
   padding-left: 20px;
   padding-right: 20px;
@@ -96,4 +100,29 @@ h5 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+@media screen and (min-width: 751px) {
+  .footerFont {
+    font-size: 60px;
+  }
+  .smallFooterFont {
+    font-size: 40px;
+  }
+  .footerLinks {
+    font-size: 20px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 750px) {
+  .footerFont {
+    font-size: 25px;
+  }
+  .smallFooterFont {
+    font-size: 18px;
+  }
+  .footerLinks {
+    font-size: 18px;
+  }
 }
