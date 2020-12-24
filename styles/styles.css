@@ -42,15 +42,7 @@
 
 
 
-.top-right2 {
-  position: absolute;
-  top: 10%;
-  right: 10%;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-  text-shadow: 2px 2px 8px #292121;
-}
+
 
 .my-font {
   font-family: 'Nanum Myeongjo', serif;
@@ -149,6 +141,37 @@ h5 {
     color: white;
     padding-left: 20px;
     padding-right: 20px;
+    text-shadow: 2px 2px 8px #292121;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 751px) {
+  .top-right2 {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-shadow: 2px 2px 8px #292121;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .top-right2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
     text-shadow: 2px 2px 8px #292121;
   }
 }
